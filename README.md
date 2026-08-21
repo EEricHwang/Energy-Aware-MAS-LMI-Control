@@ -57,7 +57,7 @@ controller synthesis (Theorem 1), battery safety certification (Theorem 2),
 figures (trajectories, formation error, control input bounds, SOC trajectories,
 SOC-dependent weight evolution).
 
-## Results
+## Simulation Results
 
 The proposed energy-aware controller keeps every agent's control input strictly
 below the certified bound `u_max` (Theorem 2) throughout the transient, while a
