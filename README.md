@@ -6,7 +6,7 @@ guarantee (control input bound → C-rate bound → safe operation horizon).
 
 > S. Hwang, G. Wu, M. Cho, and I. Hwang, "Energy-Aware Consensus Control for
 > Multi-Agent Systems with Guaranteed Battery Safety via H-Infinity LMI Design,"
-> *IEEE Control Systems Letters (L-CSS)*, 2026.
+> *IEEE Control Systems Letters (L-CSS)*, 2026, Accepted.
 
 ## Key idea
 
