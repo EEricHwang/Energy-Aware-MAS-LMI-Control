@@ -6,7 +6,7 @@ guarantee (control input bound → C-rate bound → safe operation horizon).
 
 > S. Hwang, G. Wu, M. Cho, and I. Hwang, "Energy-Aware Consensus Control for
 > Multi-Agent Systems with Guaranteed Battery Safety via H-Infinity LMI Design,"
-> *IEEE Control Systems Letters (L-CSS)*, 2026.
+> *IEEE Control Systems Letters (L-CSS)*, 2026, Accepted.
 
 ## Key idea
 
@@ -34,12 +34,12 @@ Lemma1.m        H∞ observer gain synthesis (LMI)
 Theorem1.m      Polytopic H∞ consensus controller gain synthesis (LMI)
 Theorem2.m      Battery safety certificate: u_max, C-rate_max, T_safe
 Simulation.m    5-agent pentagon formation simulation with heterogeneous SOC
-export_gains.m  Exports synthesized gains/system matrices to gains.yaml (for ROS2)
+export_gains.m  Exports synthesized gains/system matrices to gains.yaml (for ROS2 & Gazebo implementation)
 main.m          Entry point — runs the full pipeline end to end
 gains.yaml      Example exported output
 ```
 
-## Requirements
+## Software Requirements
 
 - MATLAB R2024b (or later)
 - [YALMIP](https://yalmip.github.io/)
