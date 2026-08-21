@@ -90,7 +90,3 @@ staying within the theoretical bounds `[w_under, w_upper]` throughout.*
   year    = {2026}
 }
 ```
-
-## License
-
-MIT
