@@ -65,6 +65,20 @@ baseline using a fixed (SOC-agnostic) Laplacian violates that bound — translat
 directly into a certified, computable safe operation horizon `T_safe` rather than
 an empirical one.
 
+![Formation trajectories, formation error, and control input bounds: proposed vs. baseline](figures/formation_and_control.png)
+
+*Top-left: pentagon formation trajectories over the first 25 s. Top-right: formation
+error convergence. Bottom: per-agent control input norm — the proposed method stays
+strictly below the certified bound `u_max` (Theorem 2), while the baseline violates
+it during the transient.*
+
+![SOC trajectories and SOC-dependent weight evolution](figures/soc_and_weights.png)
+
+*Left: SOC trajectories under the proposed (solid) vs. baseline (dashed) approach —
+all agents remain above `soc_min` well beyond the certified safe horizon
+`T_safe = 843.4 s`. Right: evolution of the SOC-dependent interaction weights,
+staying within the theoretical bounds `[w_under, w_upper]` throughout.*
+
 ## Citation
 
 ```bibtex
