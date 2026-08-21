@@ -39,7 +39,7 @@ main.m          Entry point — runs the full pipeline end to end
 gains.yaml      Example exported output
 ```
 
-## Requirements
+## Software Requirements
 
 - MATLAB R2024b (or later)
 - [YALMIP](https://yalmip.github.io/)
